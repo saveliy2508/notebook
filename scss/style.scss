@@ -1,0 +1,94 @@
+@import "_null";
+
+.hide {
+    display: none;
+}
+
+.hide-visibl {
+    visibility: hidden;
+}
+
+.error::placeholder {
+    color: red;
+}
+
+.active-pancil {
+    border: 2px solid red;
+}
+
+.change-message {
+    padding-top: 10px;
+    max-width: 400px;
+    height: 30px;
+}
+
+.help-button-active {
+    background-color: red;
+}
+
+.help-button-active-textarea {
+    
+}
+
+.new-note {
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;
+    .delete-item{
+        float: right;
+        width: 25px;
+        height: 25px;
+    }
+    .correct-item{
+        width: 25px;
+        height: 25px;
+        float: right;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+    .new-note__textarea{
+        min-height: 200px;
+        border: 1px solid black;
+        padding: 10px;
+        margin-top: 20px;
+        width: 478px;
+        resize: none;
+    }
+}
+
+.notes {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    .title {
+        padding: 10px 0;
+        margin-bottom: 20px;
+        .title__text {
+            font-size: 56px;
+        }
+    }
+    .note {
+        border: 1px solid black;
+        padding: 10px;
+        .note__title {
+            display: flex;
+            justify-content: space-between;
+            .note__delete {
+                margin-bottom: 10px;
+            }
+            .note__button {
+                width: 50px;
+                height: 25px;
+                margin-right: 10px;
+            }
+        }
+        .note__textarea{
+            border: 1px solid black;
+            padding: 10px;
+            textarea{
+                max-width: 460px;
+                resize: none;
+            }
+        }
+    }
+}

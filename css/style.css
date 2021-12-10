@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.hide {
+  display: none;
+}
+
+.hide-visibl {
+  visibility: hidden;
+}
+
+.error::-webkit-input-placeholder {
+  color: red;
+}
+
+.error:-ms-input-placeholder {
+  color: red;
+}
+
+.error::-ms-input-placeholder {
+  color: red;
+}
+
+.error::placeholder {
+  color: red;
+}
+
+.active-pancil {
+  border: 2px solid red;
+}
+
+.change-message {
+  padding-top: 10px;
+  max-width: 400px;
+  height: 30px;
+}
+
+.help-button-active {
+  background-color: red;
+}
+
+.new-note {
+  border: 1px solid black;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.new-note .delete-item {
+  float: right;
+  width: 25px;
+  height: 25px;
+}
+
+.new-note .correct-item {
+  width: 25px;
+  height: 25px;
+  float: right;
+  margin-right: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.new-note .new-note__textarea {
+  min-height: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 20px;
+  width: 478px;
+  resize: none;
+}
+
+.notes {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.notes .title {
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.notes .title .title__text {
+  font-size: 56px;
+}
+
+.notes .note {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.notes .note .note__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.notes .note .note__title .note__delete {
+  margin-bottom: 10px;
+}
+
+.notes .note .note__title .note__button {
+  width: 50px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.notes .note .note__textarea {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.notes .note .note__textarea textarea {
+  max-width: 460px;
+  resize: none;
+}
